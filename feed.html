@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>BIRDIE</title>
+        <link rel="icon" type="image/png" href="img/logo-figura.png">
+
+        <link rel="stylesheet" href="/css/reset.css">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,200&display=swap" rel="stylesheet">
+    </head>
+    <body class="corpo corpo__feed">
+        <div class="feed__int">
+            <header class="cabecalho__feed">
+                <div class="cabecalho__menu">
+                    <input type="checkbox" id="menu" class="container__botao">
+                    <label for="menu" class="container__rotulo">
+                        <img src="img/menu.png" class="cabecalho__menu-hamburguer container__img" alt="icone de menu hamburguer">
+                    </label>
+                    <ul class="lista-menu">
+                        <li class="lista-menu__item">
+                            <a href="#" class="lista-menu__link"Programação>Mais vistos</a>
+                        </li>
+                        <li class="lista-menu__item">
+                            <a href="#" class="lista-menu__link">Para você</a>
+                        </li>
+                        <li class="lista-menu__item">
+                            <a href="#" class="lista-menu__link">Tópicos</a>
+                        </li>
+                        <li class="lista-menu__item">
+                            <a href="#" class="lista-menu__link">Configurações</a>
+                        </li>
+                    </ul>
+                </div>
+                <a href="index.html"><img src="img/logo-figura.png" class="icone__birdie" alt="logo Birdie"></a>
+                <a href="perfil.html"><img src="img/usuario.png" class="icone__usuario" alt="icone de usuario"></a>
+            </header>
+            <main class="feed">
+                <section class="cria__post">
+                    <label for="mensagem">Criar nova publicação</label>
+				    <textarea class="texto__publicacao" cols="60" rows="10" id="mensagem"class="input-post" placeholder="Em que você está pensando?"></textarea>
+                    <button class="botao__postar">Publicar</button>
+                </section>
+                <ul class="postagens">
+                    <li class="post">
+                        <img src="img/usuario_m1.jpg" class="foto__user">
+                        <h3 class="user__post">@Leo_estavan</h3>
+                        <p class="texto__post">Hoje irei começar os estudos de JavaScript!</p>
+                        <div class="interacoes">
+                            <img src="img/like.png" class="img__interacoes" alt="curtir">
+                            <img src="img/comentario.png" class="img__interacoes" alt="comentar">
+                            <img src="img/share.png" class="img__interacoes" alt="compartilhar">
+                            <img src="img/tag.png" class="img__interacoes" alt="favoritar">
+                        </div>
+                    </li>
+                        <li class="post__img">
+                            <img src="img/usuario_f1.jpg" class="foto__user">
+                            <h3 class="user__post">@BeatrizTrindade</h3>
+                            <p class="texto__post">De hoje pela manhã!</p>
+                            <img src="img/viagem.jpg" class="foto__post" alt="foto de viagem">
+                            <div class="interacoes">
+                                <img src="img/like.png" class="img__interacoes" alt="curtir">
+                                <img src="img/comentario.png" class="img__interacoes" alt="comentar">
+                                <img src="img/share.png" class="img__interacoes" alt="compartilhar">
+                                <img src="img/tag.png" class="img__interacoes" alt="favoritar">
+                            </div>
+                        </li>
+                        <li class="post">
+                            <img src="img/usuario.png" class="foto__user">
+                            <h3 class="user__post">@marcelle03</h3>
+                            <p class="texto__post">Voltando do trabalho após um dia produtivo</p>
+                            <div class="interacoes">
+                                <img src="img/like.png" class="img__interacoes" alt="curtir">
+                                <img src="img/comentario.png" class="img__interacoes" alt="comentar">
+                                <img src="img/share.png" class="img__interacoes" alt="compartilhar">
+                                <img src="img/tag.png" class="img__interacoes" alt="favoritar">
+                            </div>
+                        </li>
+                        <li class="post">
+                            <img src="img/usuario_m2_1.jpg" class="foto__user">
+                            <h3 class="user__post">@Marcos_silva</h3>
+                            <p class="texto__post">Pensando em começar um novo livro, alguma indicação?</p>
+                            <div class="interacoes">
+                                <img src="img/like.png" class="img__interacoes" alt="curtir">
+                                <img src="img/comentario.png" class="img__interacoes" alt="comentar">
+                                <img src="img/share.png" class="img__interacoes" alt="compartilhar">
+                                <img src="img/tag.png" class="img__interacoes" alt="favoritar">
+                            </div>
+                        </li>
+                        <li class="post__img">
+                            <img src="img/usuario.png" class="foto__user">
+                            <h3 class="user__post">@wagnerFerraz</h3>
+                            <p class="texto__post">Upgrade no setup! :D</p>
+                            <img src="img/setup.jpg" class="foto__post" alt="foto de setup">
+                            <div class="interacoes">
+                                <img src="img/like.png" class="img__interacoes" alt="curtir">
+                                <img src="img/comentario.png" class="img__interacoes" alt="comentar">
+                                <img src="img/share.png" class="img__interacoes" alt="compartilhar">
+                                <img src="img/tag.png" class="img__interacoes" alt="favoritar">
+                            </div>
+                        </li>
+                        <li class="post">
+                            <img src="img/usuario_f2.jpg" class="foto__user">
+                            <h3 class="user__post">@morgana1989</h3>
+                            <p class="texto__post">Faltam 20 dias para meu aniversario!</p>
+                            <div class="interacoes">
+                                <img src="img/like.png" class="img__interacoes" alt="curtir">
+                                <img src="img/comentario.png" class="img__interacoes" alt="comentar">
+                                <img src="img/share.png" class="img__interacoes" alt="compartilhar">
+                                <img src="img/tag.png" class="img__interacoes" alt="favoritar">
+                            </div>
+                        </li>
+                        <li class="post">
+                            <img src="img/usuario.png" class="foto__user">
+                            <h3 class="user__post">@edigarMoura_</h3>
+                            <p class="texto__post">Pensando muito em migrar para o fronte-End após ter estudado mais sobre CSS :p</p>
+                            <div class="interacoes">
+                                <img src="img/like.png" class="img__interacoes" alt="curtir">
+                                <img src="img/comentario.png" class="img__interacoes" alt="comentar">
+                                <img src="img/share.png" class="img__interacoes" alt="compartilhar">
+                                <img src="img/tag.png" class="img__interacoes" alt="favoritar">
+                            </div>
+                        </li>
+                </ul>
+            </main>
+        </div>
+    </body>
+</html>

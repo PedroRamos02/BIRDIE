@@ -1,0 +1,84 @@
+.perfil__int{
+    font-family: var(--fonte-primaria);
+}
+.menu__perfil {
+    border-radius: 10px;
+    background: var(--fundo-degrade);
+    display: grid;
+    grid-template-columns: 30% 70%;
+    height: 170px;
+}
+
+.img__menu--usuario {
+    width: 65px;
+    height: 65px;
+    padding: 0.3em;
+    background-color: var(--verde);
+    border-radius: 90px;
+    align-self: center;
+    justify-self: center;
+}
+
+.detalhes__usuario {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fonte-primaria);
+    color: var(--branco);
+    text-align: center;
+    padding: 1em;
+}
+
+.input__perfil {
+    background-color: var(--cinza-secundario);
+    border: none;
+    border-radius: 10px;
+    padding: 0.5em;
+    text-align: center;
+    margin: 0 auto 1em auto;
+    width: 100%;
+}
+
+.input__perfil::placeholder {
+    color: var(--azul-claro);
+}
+
+.config {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 1.5em 0 6em 0;
+}
+
+.botao__perfil {
+    width: 150px;
+    background: var(--fundo-degrade);
+    border-radius: 5px 25px 25px 25px;
+    margin-top: 1em;
+    padding: 0.5em;
+}
+
+.salvar {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.botao__salvar {
+    
+    background: var(--cor-ext);
+    color: var(--branco);
+    border-radius: 90px;
+    padding: 1em;
+    width: 50%;
+}
+
+@media screen and (min-width:940px) {
+    .corpo__perfil {
+        display: flex;
+        justify-content: center;
+    }
+
+    .perfil__int {
+        width: 40%;
+    }
+}

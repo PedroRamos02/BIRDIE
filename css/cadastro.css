@@ -1,0 +1,60 @@
+.img__cadastro {
+    width: 200px;
+    margin: 0 15%;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    color: var(--branco);
+}
+
+.input__formulario {
+    background-color: var(--cinza-secundario);
+    border: none;
+    border-radius: 10px;
+    padding: 0.5em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.input__formulario::placeholder {
+    color: var(--azul-claro);
+}
+
+.formulario .botao__inicial {
+    text-align: center;
+    margin: 2em auto;
+}
+
+@media screen and (min-width: 940px) {
+    .corpo__formulario {
+        display: flex;
+        justify-content: center;
+    }
+
+    .formulario__int {
+        width: 50%;
+    }
+
+    .cadastro__int {
+        min-height: 120vh;
+    }
+
+    .formulario {
+        align-items: center;
+        margin: 5em 0;
+    }
+
+    .input__formulario {
+        margin: 2em 0;
+        width: 65%;
+        padding: 1em;
+    }
+
+    .formulario .botao__inicial {
+        margin-top: 4em;
+    }
+}
